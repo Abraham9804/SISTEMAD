@@ -1,0 +1,16 @@
+/* ESTILOS DE LA SECCION CARRUSEL*/
+/*Alto de imagenes en carrusel*/
+.d-block{
+	max-height:620px;
+	min-height: 170px;
+}
+
+
+/*Transparencia en descripcion*/
+.d-md-block{
+	width:-50%;
+	height:auto;
+	background:rgba(0,0,0,0.7);
+	backdrop-filter:blur(1px);
+}
+

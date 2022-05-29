@@ -1,0 +1,63 @@
+/*------ FOOTER ------*/
+footer{
+	grid-area:footer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#0b0b0b;
+	backdrop-filter:blur(3px);
+	ul{
+		li{
+			list-style: none;
+		}
+	}
+}
+
+.contenedor-redes{
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	p{
+	width: 100%;
+	display: inline-block;
+	color:white;
+	padding:5px 20px;
+	}
+}
+
+.redes-sociales{
+	margin-top: 50px;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+.derechos-autor{
+	font-size: .8em;
+}
+
+.fa-facebook-f{
+	transition: 1s ease all;
+	padding:5px 5px;
+	border-radius: 10%;
+	font-size: 40px;
+	color:white;
+	&:hover{
+		transform: scale(1.1,1.1);
+	}
+
+}
+
+.fa-instagram{
+	@extend .fa-facebook-f;
+}
+
+.fa-whatsapp{
+	@extend .fa-facebook-f;
+}
+
+
